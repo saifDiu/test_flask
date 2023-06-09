@@ -38,3 +38,6 @@ jobs:
       run: |
         export PYTHONPATH=src
         pytest
+    - name: Test Flask App File
+      run: |
+        python3.10 app.py
